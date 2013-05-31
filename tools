@@ -3,6 +3,13 @@
 
 TODO List  
 Wunderlist - https://www.wunderlist.com/  
+Backup sqlite file
+cp -r "/Users/vinodpandey/Library/Containers/com.wunderkinder.wunderlistdesktop/Data/Library/Application Support/Wunderlist/WKModel.sqlite" ~/Dropbox/Backups/wunderlist/WKModel.sqlite  
+Firefox sqlite plugin - https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/  
+Query DB  
+Select T.ZTITLE,T.ZNOTE,datetime(T.ZCOMPLETEDAT,'unixepoch'),L.ZTITLE   
+From ZRESOURCE AS T INNER JOIN ZRESOURCE AS L ON L.Z_PK = T.ZTASKLIST order by L.ZTITLE  
+
 
 Online editor to test javascript/html. Supports json/jsonp 
 http://jsfiddle.net/
