@@ -1,7 +1,8 @@
 “You’re only as good as your tools.”
 
 
-TODO List  
+TODO List 
+-----------
 Wunderlist - https://www.wunderlist.com/  
 Backup sqlite file
 cp -r "/Users/vinodpandey/Library/Containers/com.wunderkinder.wunderlistdesktop/Data/Library/Application Support/Wunderlist/WKModel.sqlite" ~/Dropbox/Backups/wunderlist/WKModel.sqlite  
@@ -9,6 +10,14 @@ Firefox sqlite plugin - https://addons.mozilla.org/en-US/firefox/addon/sqlite-ma
 Query DB  
 Select T.ZTITLE,T.ZNOTE,datetime(T.ZCOMPLETEDAT,'unixepoch'),L.ZTITLE   
 From ZRESOURCE AS T INNER JOIN ZRESOURCE AS L ON L.Z_PK = T.ZTASKLIST order by L.ZTITLE  
+
+Add to Wunderlist (Chrome and Firefox extensions)
+https://addons.mozilla.org/en-us/firefox/addon/add-to-wunderlist/
+https://chrome.google.com/webstore/detail/add-to-wunderlist/dmnddeddcgdllibmaodanoonljfdmooc?hl=en
+
+Password Manager
+----------------
+Last Pass (https://lastpass.com/)
 
 
 Online editor to test javascript/html. Supports json/jsonp 
