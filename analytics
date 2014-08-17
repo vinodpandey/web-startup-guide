@@ -1,0 +1,25 @@
+Google Webmaster Tool
+=======================
+Register website using one of the methods available
+
+
+What to do be with Google Webmaster Tool
+=========================================
+1. HTML Improvements
+Correct Meta description and Title tag
+Webmaster Tools > Search Appearance > HTML Improvements
+
+2. Detecting malwares
+Webmaster Tools > Security Issues
+
+3. Seach query analysis
+Webmaster Tools > Search Traffic > Search Queries > Top Queries
+a. Limit data to a most recent day to get the recent keywords used by visitors. This will help in getting good 
+keywords/topics for the website that are not fully optimized.
+b. Analyse the query data to get list of new keywords. Use Adwords to get keyword volume.
+
+Ref:
+http://searchenginewatch.com/article/2273660/How-to-Use-Google-Webmaster-Tools-to-Maximize-Your-SEO-Campaign
+https://blog.kissmetrics.com/google-webmaster-tools-2012/
+To get a keyword search volume
+https://adwords.google.com/ko/KeywordPlanner/Home?__u=4849752880&__c=9752018410
